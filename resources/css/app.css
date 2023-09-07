@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .display-none {
+        @apply hidden;
+    }
+}
+
+:root {
+    --my-background-dark-theme: hsl(207.91,62.32%,13.53%);
+    --my-text-dark-theme: hsl(211.43,25.3%,83.73%);
+
+    --my-background-white-theme: hsl(207.91,62.32%,13.53%);
+    --my-text-white-theme: hsl(216.92,19.12%,26.67%);
+}
