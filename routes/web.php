@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('{any}',\App\Http\Controllers\HomeController::class)->where(['any' => '.*']);
+Route::get('/',\App\Http\Controllers\HomeController::class)->name('home');
+Route::post('/',\App\Http\Controllers\SendFormController::class)->name('form');
+Route::get('/cv',\App\Http\Controllers\CvController::class)->name('cv');

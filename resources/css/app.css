@@ -4,16 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .display-none {
-        @apply hidden;
-    }
+.display-none {
+    @apply hidden;
 }
 
-:root {
-    --my-background-dark-theme: hsl(207.91,62.32%,13.53%);
-    --my-text-dark-theme: hsl(211.43,25.3%,83.73%);
+    #form .is-invalid {
+        @apply shadow-red-500 shadow border-none;
+    }
 
-    --my-background-white-theme: hsl(207.91,62.32%,13.53%);
-    --my-text-white-theme: hsl(216.92,19.12%,26.67%);
+.checkmark {
+    background-image: url(/public/assets/img/done-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: top 0 left 0;
+    padding-left: 2.5rem;
+}
+:root {
+    --my-background-dark-theme: hsl(207.91, 62.32%, 13.53%);
+    --my-text-dark-theme: hsl(211.43, 25.3%, 83.73%);
+
+    --my-background-white-theme: hsl(207.91, 62.32%, 13.53%);
+    --my-text-white-theme: hsl(216.92, 19.12%, 26.67%);
 }
