@@ -34,7 +34,7 @@ class SendForm extends FormRequest
         return [
             'name' => 'string|required',
             'email' => 'email',
-            'phone' => 'required|regex:/^([0-9\s\+\(\)]*)$/|min:10|max:20',
+            'phone' => 'required|regex:/^([0-9\s\+\(\)]*)$/|min:9|max:20',
             'text' => 'required',
             'g-recaptcha-response' => ['required',new Recaptcha]
         ];

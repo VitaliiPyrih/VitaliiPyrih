@@ -171,10 +171,6 @@
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
     <script>
         const input = document.querySelector("#phone");
-
-        // function onSubmit(token) {
-        //     document.getElementById("form").submit();
-        // }
         let ini = window.intlTelInput(input, {
             initialCountry: "auto",
             geoIpLookup: function (callback) {
@@ -191,9 +187,13 @@
             },
             utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
         });
-        ini.promise.then(function () {
-            input.value = "{{old('phone')}}";
+        input.addEventListener("countrychange", function(e) {
+            let data = ini.getSelectedCountryData().dialCode;
+            input.value = '+'+data
         });
+        ini.promise.then(function () {
+            input.value = '+'+ini.getSelectedCountryData().dialCode+"{{old('phone')}}";
+        })
     </script>
     <script>
         function onClick(e) {

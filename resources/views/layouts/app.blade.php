@@ -17,7 +17,7 @@
 <div>
     <div class="line h-3 bg-gradient-to-r from-sky-600 to-blue-500"></div>
     <div class="wrapper text-white-theme dark:text-dark-theme transition duration-200 dark:bg-dark-theme min-h-screen">
-        @if ($errors->any())
+        @if ($errors->has('blocked') || $errors->has('sending_error'))
                 <x-sending-error error="{{$errors->first()}}"/>
         @endif
         @if(session('success'))
@@ -55,7 +55,6 @@
     let modal = document.querySelector('.modal');
     if(modal) {
         document.querySelector('.close').addEventListener('click', function(e) {e.preventDefault(); modal.remove()})
-
     }
 </script>
 <script src="{{asset('/assets/js/script.js')}}" data-app="{{config('app.locale')}}"></script>

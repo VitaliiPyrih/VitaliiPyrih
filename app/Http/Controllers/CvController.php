@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
-class CvController extends Controller
+class CvController extends BaseController
 {
     public function __invoke()
     {

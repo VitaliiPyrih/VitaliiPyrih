@@ -4,7 +4,7 @@
         <div class="content w-full md:w-2/3 mx-auto">
             <div class="checkmark">
                 <h3 class="text-2xl mb-5">{{__('messages.about_me.portfolio.line1')}}</h3>
-                <p class="text-xl">{{__('messages.about_me.portfolio.line2')}} <x-skils link="">GitHub</x-skils></p>
+                <p class="text-xl">{{__('messages.about_me.portfolio.line2')}} <x-skils link="https://github.com/VitaliiPyrih/vitaliiPyrih">GitHub</x-skils></p>
             </div>
         </div>
         <div class="content w-full md:w-2/3 mx-auto">
@@ -16,7 +16,7 @@
         <div class="content w-full md:w-2/3 mx-auto">
             <div class="checkmark">
                 <h3 class="text-2xl mb-5">{{__('messages.about_me.home.line1')}}</h3>
-                <p class="text-xl">{{__('messages.about_me.home.line2')}} <x-skils link="">Live Link.</x-skils></p>
+                <p class="text-xl">{{__('messages.about_me.home.line2')}} <x-skils link="https://sacral-art.com/">Live Link.</x-skils></p>
             </div>
         </div>
     </div>
