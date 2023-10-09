@@ -7,18 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About my
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>
+My main interest is web development, both on the front and back end, where I hone my skills in creating web applications. I specialize in the LEMP and LAMP stack (PHP), focusing on the Laravel framework and its surrounding ecosystem. I have some experience in developing frameworks from scratch, which I have worked on in the past.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+My experience lies in creating user-friendly interfaces that are easy to navigate. Additionally, I have a good understanding of databases, API integration, and implementing client-specific features.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Throughout my journey, I have actively worked on small projects, which has allowed me to gain practical web development experience. While these projects didn't have commercial objectives, they were crucial for my personal and professional growth.
+
+I can work both independently and in a small team.
+</p>
 
 
